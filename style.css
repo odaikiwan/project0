@@ -55,7 +55,7 @@ img {
     justify-content: center;
 }
 
-#sub input {
+#sub input, #subb {
     margin: 30px 20px 0px 20px;
     flex-basis: 140px;
     border-radius: 0.5em;
@@ -65,8 +65,16 @@ img {
     color: #333333;
 }
 
-#sub input:hover {
+#sub input:hover, #subb:hover {
     border-color: gray;
+}
+
+button:hover span {
+    display:none;
+}
+
+button:hover:before {
+    content:"I'm Feeling Doodly!";
 }
 
 #search {
